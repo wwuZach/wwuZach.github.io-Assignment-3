@@ -1,0 +1,237 @@
+
+
+
+html {
+background-color: rgb(255, 255, 255);
+display: grid;
+}
+
+
+p{
+    text-align: center;
+    align-content: center;
+    background-color: coral;
+    position: fixed; top: 45%; left: 33%;
+    z-index: 2;
+    font-family: sans-serif;
+    font-size: 20pt;
+    font-weight: 700;
+}
+
+h1 {
+    text-align: center;
+    align-content: center;
+    background-color: coral;
+    position: fixed; top: 45%; left: 30%;
+    z-index: 2;
+    font-family: sans-serif;
+    font-size: 20pt;
+
+    transition: background-color linear 2s;
+}
+
+h1:hover{
+    background-color: slateblue;
+}
+
+h2 {
+    text-align: center;
+    align-content: center;
+    background-color: coral;
+    position: fixed; top: 50%; left: 30%;
+    z-index: 2;
+    font-family: sans-serif;
+    font-size: 20pt;
+    transition: background-color linear 2s;
+}
+
+h2:hover{
+    background-color: steelblue;
+}
+
+h3 {
+    text-align: center;
+    align-content: center;
+    background-color: black;
+    position: fixed; top: 55%; left: 30%;  
+    z-index: 2;
+    font-family: sans-serif;
+    font-size: 20pt;
+    transition: background-color linear 2s;
+}
+
+h3:hover{
+    background-color: coral;
+}
+
+.triangle1 {
+   width: 0px;
+   height: 0px;
+
+   background-color: #afa8a2d8;
+   border-top: 100px solid transparent;
+   border-right: 100px solid transparent;
+   border-left: 100px solid transparent;
+   transform: rotate(135deg);
+   position: fixed; top: 313px; left: 745px;
+   z-index: 1;
+}
+
+.triangle2 {
+    width: 35px;
+   height: 10px;
+
+   border-top: 135px solid #000000;
+   border-right: 150px solid transparent;
+   border-left: 150px solid transparent;
+   transform: rotate(90deg);
+   position: absolute; top: 400px; left: 700px;
+   z-index: 1;
+}
+
+.triangle3 {
+    width: 0px;
+    height: 0px;
+ 
+    border-top: 62px solid #d1a544;
+    border-right: 70px solid transparent;
+    border-left: 70px solid transparent;
+    transform: rotate(270deg);
+    position: fixed; top: 532px; left: 770px;
+    z-index: 0;
+}
+
+.triangle4 {
+    width: 0px;
+    height: 0px;
+ 
+    border-top: 90px solid #ded5c6;
+    border-right: 80px solid transparent;
+    border-left: 80px solid transparent;
+    transform: rotate(180deg);
+    position: fixed; top: 563px;
+    position: fixed; left: 790px;
+    z-index: 1;
+}
+
+.triangle5 {
+    width: 0px;
+    height: 0px;
+ 
+    border-top: 100px solid #cfc6bd;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    transform: rotate(270deg);
+    position: fixed; top: 360px;
+    position: fixed; left: 890px;
+    z-index: 1;
+}
+
+.triangle6{
+    width: 0px;
+    height: 0px;
+ 
+    border-top: 100px solid #a6abaf;
+    border-right: 125px solid transparent;
+    border-left: 125px solid transparent;
+    transform: rotate(270deg);
+    position: fixed; top: 585px;
+    position: fixed; left: 865px;
+    z-index: 1;
+}
+
+.triangle7{
+    width: 0px;
+    height: 0px;
+ 
+    border-top: 300px solid #ac1208;
+    border-right: 255px solid transparent;
+    border-left: 255px solid transparent;
+    transform: rotate(90deg);
+    position: fixed; top: 365px;
+    position: fixed; left: 790px;
+    z-index: 0;
+}
+
+.triangle8{
+    width: 0px;
+    height: 0px;
+ 
+    border-top: 110px solid #6f6566;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    
+    position: fixed; top: 305px;
+    position: fixed; left: 935px;
+    z-index: 0;
+
+}
+
+.square1{
+    height: 0px;
+    width: 0px;
+    
+    border-color: black;
+    border-top: 1000px solid black;
+    border-bottom: 1000px solid black;
+    border-right: 600px solid black;
+    border-left: 1000px solid ;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    top: 50%;
+    left: 1%;
+    right: 50%;
+    bottom: 50%;
+    z-index: 1;
+}
+
+.square2{
+    height: 0px;
+    width: 0px;
+    
+    border-color: black;
+    border-top: 400px solid ;
+    border-bottom: 100px solid ;
+    border-right: 200px solid ;
+    border-left: 3000px solid ;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    right: 50%;
+    bottom: 10%;
+    z-index: 1;
+}
+
+.square3{
+    height: 0px;
+    width: 0px;
+    
+    border-color: black;
+    border-top: 100px solid ;
+    border-bottom: 400px solid ;
+    border-right: 100px solid ;
+    border-left: 2000px solid ;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    top: 91.5%;
+    left: 50%;
+    right: 50%;
+    z-index: 1;
+}
+
+.square4{
+    height: 0px;
+    width: 0px;
+    
+    border-color: black;
+    border-top: 300px solid ;
+    border-bottom: 100px solid ;
+    border-right: 100px solid ;
+    border-left: 800px solid ;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    top: 50%;
+    left: 81%;
+    z-index: 1;
+}
